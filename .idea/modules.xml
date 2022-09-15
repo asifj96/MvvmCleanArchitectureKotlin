@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MvvmCleanArchitectureKotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/MvvmCleanArchitectureKotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MvvmCleanArchitectureKotlin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MvvmCleanArchitectureKotlin.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MvvmCleanArchitectureKotlin.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MvvmCleanArchitectureKotlin.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MvvmCleanArchitectureKotlin.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MvvmCleanArchitectureKotlin.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MvvmCleanArchitectureKotlin.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MvvmCleanArchitectureKotlin.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MvvmCleanArchitectureKotlin.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/MvvmCleanArchitectureKotlin.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MvvmCleanArchitectureKotlin.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MvvmCleanArchitectureKotlin.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MvvmCleanArchitectureKotlin.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MvvmCleanArchitectureKotlin.buildSrc.test.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/_10sdp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/tvRank"
+            style="@style/TextViewStyle.Regular.12sdp.Gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sofia_pro_semi_bold"
+            android:paddingHorizontal="@dimen/_2sdp"
+            android:text="1."
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvName"
+            style="@style/TextViewStyle.Regular.12sdp.Gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sofia_pro_semi_bold"
+            android:paddingHorizontal="@dimen/_2sdp"
+            android:text="Bitcoin"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@id/tvSymbol"
+            app:layout_constraintStart_toEndOf="@id/tvRank"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvSymbol"
+            style="@style/TextViewStyle.Regular.12sdp.Gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sofia_pro_semi_bold"
+            android:paddingHorizontal="@dimen/_2sdp"
+            android:text="(BTC)"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@id/tvName"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            style="@style/TextViewStyle.Regular.12sdp.Gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="@dimen/_2sdp"
+            android:text="active"
+            android:textColor="@android:color/holo_green_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

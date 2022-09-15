@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_2sdp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/tvName"
+            style="@style/TextViewStyle.Regular.12sdp.Gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sofia_pro_semi_bold"
+            android:paddingHorizontal="@dimen/_2sdp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="1.dsadasdaddsad" />
+
+        <TextView
+            android:id="@+id/tvPosition"
+            style="@style/TextViewStyle.Regular.10sdp.Gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sofia_pro_semi_bold"
+            android:paddingHorizontal="@dimen/_2sdp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvName"
+            tools:text="1.dsadasdaddsad" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimaryGrey"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_2sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvPosition" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

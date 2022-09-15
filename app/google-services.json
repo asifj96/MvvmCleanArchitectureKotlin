@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1070917004123",
+    "project_id": "stcproject-8be6f",
+    "storage_bucket": "stcproject-8be6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070917004123:android:d6fcb1ba392a679691c87e",
+        "android_client_info": {
+          "package_name": "com.asif.mvvmcleanarchitecturekotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070917004123-0elh2ohs9nt6revakm0nctinaqhba0d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkTN-oFGdqG277L34c5OQQ1ew5jFlYhkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070917004123-0elh2ohs9nt6revakm0nctinaqhba0d8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

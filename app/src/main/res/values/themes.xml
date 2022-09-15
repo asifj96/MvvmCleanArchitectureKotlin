@@ -1,0 +1,93 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MvvmCleanArchitectureKotlin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="TextViewStyle" parent="Theme.MvvmCleanArchitectureKotlin">
+        <item name="fontFamily">@font/sofia_pro_regular</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontWeight">500</item>
+    </style>
+
+    <style name="TextViewStyle.30sdp" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_30sdp</item>
+
+    </style>
+    <style name="TextViewStyle.28sdp" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_28sdp</item>
+    </style>
+
+    <style name="TextViewStyle.26sdp" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_26sdp</item>
+
+    </style>
+
+    <style name="TextViewStyle.24sdp" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_24sdp</item>
+
+    </style>
+    <style name="TextViewStyle.22sdp" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_22sdp</item>
+    </style>
+    <style name="TextViewStyle.20sdp" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_20sdp</item>
+
+    </style>
+
+    <style name="TextViewStyle.14sdp" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+    <style name="TextViewStyle.12sdp" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_12sdp</item>
+    </style>
+    <style name="TextViewStyle.10sdp" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:textAlignment">textStart</item>
+
+    </style>
+    <style name="TextViewStyle.9sdp" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_9sdp</item>
+        <item name="android:textAlignment">textStart</item>
+
+    </style>
+
+    <style name="TextViewStyle.Regular.9sdp.Gray" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_9sdp</item>
+    </style>
+    <style name="TextViewStyle.Regular.10sdp.Gray" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_10sdp</item>
+    </style>
+    <style name="TextViewStyle.Regular.12sdp.Gray" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/sofia_pro_medium</item>
+    </style>
+    <style name="TextViewStyle.Regular.14sdp.Gray" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_14sdp</item>
+    </style>
+    <style name="TextViewStyle.Regular.16sdp.Gray" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_16sdp</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextViewStyle.Regular.18sdp.Gray" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/_18sdp</item>
+        <item name="fontFamily">@font/sofia_pro_semi_bold</item>
+    </style>
+</resources>

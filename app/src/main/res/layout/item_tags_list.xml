@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:padding="@dimen/_5sdp"
+        android:minWidth="@dimen/_100sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/tvTag"
+            style="@style/TextViewStyle.Regular.10sdp.Gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sofia_pro_semi_bold"
+            android:textColor="@android:color/holo_green_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="1.dsadasdaddsad" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
